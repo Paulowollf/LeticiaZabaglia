@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leticia Zabaglia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Mansalva&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <Style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Mansalva&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
 
         *{ 
             padding: 0px;
@@ -15,10 +15,10 @@
             box-sizing: border-box;
         } 
 
-        @media Screen and (min-width: 768px){
+        @media screen and (min-width: 768px){
             h5{ 
                 display: flex;
-                font-family: "sora";
+                font-family: "Sora";
                 text-align: center;
                 justify-content: center;
                 align-items: center;
@@ -31,127 +31,98 @@
             }
         }
             
-            
-        @media Screen and (max-width: 768px){
-            
-        body
-            {
+        @media screen and (max-width: 768px){
+            body{ 
                 background-image: linear-gradient(135deg, #ff559c 0, #ff4aa6 10%, #ff40ac 20%, #ff38af 30%, #ff31af 40%, #e82bab 50%, #c827a5 60%, #ab269f 70%, #90269a 80%, #772795 90%, #5f2891 100%);
             } 
             h5{ 
                 display: none;
             } 
-        
-            
             h1{ 
-                font-family: "sora"; 
+                font-family: "Sora"; 
                 font-weight: bold;
-                color: #5f2891;
-                color: rgb(255, 255, 255);
+                color: #fff;
                 text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.493);
                 display: flex;
                 align-items: center; 
-
                 justify-content: center;
                 padding: 10px;
                 text-transform: uppercase;
             }
-
             div{ 
                 display: flex;
                 align-items: center;
                 justify-content: right;
                 width: 100%;
-
             }
-
-            #principal { 
+            #principal img{ 
+                width: 250px;
+                border: 2px solid white; 
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+                padding: 10px;
+            } 
+            h2{
+                font-family: "Sora";
+                font-weight: 800;
+                color: #fff;
+                text-transform: uppercase;
             }
-         #principal > img{ 
-            width: 250px;
-            border: 2px solid white; 
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-        padding: 10px;
-          
-
-         } 
-
-      h2{
-            font-family: "sora";
-            font-weight: 800;
-            color: rgb(255, 255, 255);
-            text-transform: uppercase;
-         }
-           
-         .motivo{ 
-            text-align: center;
-            flex-direction: column;
-            height: 400px;
-         }
-
-         #faixa{ 
-            width: 100%; 
-            background-color: rgb(255, 255, 255);
-            height: 50px;
-         }
-
-      #img2{ 
-            width: 250px;
-            border: 2px solid white; 
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-        padding: 10px;
-          }
-
+            .motivo{ 
+                text-align: center;
+                flex-direction: column;
+                height: 400px;
+            }
+            #faixa{ 
+                width: 100%; 
+                background-color: #fff;
+                height: 50px;
+            }
+            #img2{ 
+                width: 250px;
+                border: 2px solid white; 
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+                padding: 10px;
+            }
         }
     
     #faixa1{ 
         display: block;
         background-color: red;
     }
-
  
     #img3 { 
         width: 250px;
         display: inline;
-        flex-direction: column !important; !important
+        flex-direction: column !important; 
         display: block !important;
         border: 2px solid white; 
-        
-
     }
 
     #principal2{ 
         display: block;
         justify-content: center;
         text-align: center;
-
     }
 
     div > .motivo2{ 
         display: block; 
-   
-
-
-     
     }
-
+ 
     #todo{ 
-        font-family: "sora";
+        font-family: "Sora";
         color: #fff;
         text-align: left;
-            }
+    }
  
     footer{ 
         text-align: center;
         display: block;
     }
-    
-    
-    
+ 
     #img4{ 
         width: 250px;
         border: 2px solid white; 
@@ -170,8 +141,6 @@
         padding: 10px;
     }
 
-
-
     aside{ 
         display: block;
         justify-content: center;
@@ -179,22 +148,22 @@
     } 
     p{ 
         padding: 10px; 
-        font-family: "sora"; 
+        font-family: "Sora"; 
         color: #fff; 
         width: 100%;
         text-align: justify;
     } 
     iframe{ 
+        size: 150px;
         border: none;
-        width: 40rem;
-        height: 40rem;
+        width: 100%;
+        height: 80%;
     }
     h4{ 
         color: wheat;
         text-align: center;
         font-size: 3em;
-        font-family: "sora";
-        
+        font-family: "Sora";
     } 
 
     audio{ 
@@ -203,10 +172,12 @@
     } 
 
     #principal3{ 
+        display: block;
         height: 100%; 
         width: 100%;
+        text-align: center;
     }
-    </Style>
+    </style>
 
 </head>
 
@@ -215,104 +186,63 @@
         Abra no celular
     </h5> 
  
- <header> <h1>5 Motivos por você ser Incrivel</h1>
+    <header> 
+        <h1>5 Motivos por você ser Incrivel</h1>
     
-    <div id="principal">
-       <div class="motivo"> <h2>Primeiro Motivo</h2>
-    
-            
-    
-            <p>Engraçada e simpatica, voce sempre trata todas as pessoas que conhece com tanto respeito.
-            nunca te vi fechar a cara para ninguem, está perto de voce inspira qualquer pessoa. 
-        </p>
-     
-        
-        <br>
-    
-    </div>
-        <img src="ims/1.jpg" alt=""><br> 
-        
-    </div> 
-
-    <div id="faixa">
- .  </div>
-
- <div id="principal3">
-     
-     
-     <img src="ims/2.jpg" id="img2"><br> 
-     <div class="motivo"> <h2>Segundo Motivo</h2>
-             <br>
-             <div id="todo">em todo esse tempo que te conheço sei como vc é esforçada em tudo que você faz 
-             seja o seu tcc, no seu trabalho de faculdade, trabalhando fazendo estagio
-             e ainda arrumando tempo para seus amigos e para sua familia, e mesmo fazendo tudo isso sempre mantendo 
-             um sorrisso e um bom humor tão gostoso. 
+        <div id="principal">
+            <div class="motivo"> 
+                <h2>Primeiro Motivo</h2>
+                <p>Engraçada e simpática, você sempre trata todas as pessoas que conhece com tanto respeito. Nunca te vi fechar a cara para ninguém. Estar perto de você inspira qualquer pessoa.</p>
             </div>
-       
+            <img src="ims/1.jpg" alt=""><br> 
+        </div> 
+
+        <div id="faixa">.</div>
+
+        <div id="principal3">
+            <img src="ims/2.jpg" id="img2"><br> 
+            <div class="motivo"> 
+                <h2>Segundo Motivo</h2>
+                <div id="todo">
+                    Em todo esse tempo que te conheço, sei como você é esforçada em tudo que faz, seja o seu TCC, no seu trabalho de faculdade, trabalhando fazendo estágio e ainda arrumando tempo para seus amigos e para sua família, e mesmo fazendo tudo isso sempre mantendo um sorriso e um bom humor tão gostoso. 
+                </div>
             </div> 
-         
-         
-           
+            <div id="faixa">.</div>
         </div>
-    </div>
-    </div>
+      
 
-    </div>   
         <div id="principal2" style="display: block;">
-       
-            
-            <div class="motivo2"> <h2>Terceiro Motivo</h2>
-                <br>
-           
+            <div class="motivo2"> 
+                <h2>Terceiro Motivo</h2>
                 <img src="ims/3.jpg" id="img2"><br> 
-                <p>
-                    um coração que acolhe e aconchega, so tenho que agradecer por ter alguem como ti na minha vida por todos esses anos.
-                    eu sempre vou te amar Leticia, obrigado por sempre está comigo e aturar todas as minhas paranoias e minhas multiplas versões de personalidade.
-                    continue sendo essa garota tão maravilhosa que voce é amo cada detalhes teu.
-                </p>   
-          </div> 
-          
+                <p>Um coração que acolhe e aconchega, só tenho que agradecer por ter alguém como você na minha vida por todos esses anos. Eu sempre vou te amar, Letícia. Obrigado por sempre estar comigo e aturar todas as minhas paranoias e minhas múltiplas versões de personalidade. Continue sendo essa garota tão maravilhosa que você é; amo cada detalhe teu.</p>   
+            </div> 
         </div>
-
+        <div id="faixa">.</div>
         <aside> 
-            <div id="faixa">
-                .  </div> 
- <div class="motivo2"> 
-    <h2> Quarto motivo</h2> 
-  </div> 
-  
-  <div><img src="ims/4.jpg" id="img4" alt="">
-    <p>   Sabe por que vc é incrivel ? incrivel por sempre ta comigo e por me apoiar, confesso que eu só quis fazer uma faculdade porque voce me inspirou e vivia
-        falando para eu fazer, voce é incrivel Leticia por que quando o posto explodiu você foi a primeira a min liga que quando minha tia estava doente vc cachinhos
-        me apoio e agradeço de coração mesmo, se um dia eu tiver uma filha quero que ela seja assim como você. Obrigado por existir cachinhos. 
-    
-    </p>
-  </div>
+         
+            <div class="motivo2"> 
+                <h2>Quarto motivo</h2> 
+            </div> 
+            <div>
+                <img src="ims/4.jpg" id="img4" alt="">
+                <p>Sabe por que você é incrível? Incrível por sempre estar comigo e por me apoiar. Confesso que só quis fazer uma faculdade porque você me inspirou e vivia falando para eu fazer. Você é incrível, Letícia, porque quando o posto explodiu, você foi a primeira a me ligar. Quando minha tia estava doente, você me apoiou. E agradeço de coração mesmo. Se um dia eu tiver uma filha, quero que ela seja assim como você. Obrigado por existir, Letícia.</p>
+            </div>
         </aside> 
-        <div id="faixa">
-            .  </div>
+
+        <div id="faixa">.</div>
+
         <footer class="motivo2"> 
-            <h2> quinto  motivo</h2> 
+            <h2>Quinto motivo</h2> 
             <img src="ims/5.jpg" id="img5" alt="">
-    
         </footer>
                   
-          <p>   
-            Seu sorriso sua risada voce da ponta do pé a cabeça, voce é uma pessoa extraodinaria nem sei explicar o quão te admiro e te amo leh e gosto de você. 
-            meus parabens cachinhos rezo por sua felicidade pelo seu bem para vc se formar e seguir a carreira que tanto amou. 
-            continue sendo assim que so sua presença leticia faz a difirrença na vida das pessoas. 
-            
-            
-
-          </p> 
-
-          <h4> 
-            Parabens Leticia s2
-          </h4>
-          <iframe src="https://media.tenor.com/V8AnSg7WG0EAAAAi/canticos-te-amo.gif" frameborder="1"></iframe> 
-        </header>
+        <p>Seu sorriso, sua risada, você da ponta do pé à cabeça, você é uma pessoa extraordinária, nem sei explicar o quão te admiro e te amo, Leh, e gosto de você. Meus parabéns, cachinhos. Rezo por sua felicidade, pelo seu bem, para você se formar e seguir a carreira que tanto amou. Continue sendo assim que só sua presença, Letícia, faz a diferença na vida das pessoas.</p> 
+          
+        <h4>Parabéns, Leticia! &lt;3</h4>
+        <iframe src="https://media.tenor.com/V8AnSg7WG0EAAAAi/canticos-te-amo.gif" frameborder="none" width="50px"></iframe> 
+    </header>
         
-        <audio src="ims/Sam Smith - Stay With Me ft. Mary J. Blige (Live).mp3" autoplay controls type="mp3"  preload="metadata"> 
-
+    <audio src="ims/Sam Smith - Stay With Me ft. Mary J. Blige (Live).mp3" autoplay controls type="mp3" preload="metadata"> 
 </body>
 </html>

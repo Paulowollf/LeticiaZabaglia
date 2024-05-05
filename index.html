@@ -15,18 +15,45 @@
             box-sizing: border-box;
         } 
 
-        body
-            {
-                background-color: rgb(252, 235, 140);
+        @media Screen and (min-width: 768px){
+            h5{ 
+                display: flex;
+                font-family: "sora";
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                width: 100vw;
+                height: 100vh;
+                font-size: 5em;
             }
-        
+            header{ 
+                display: none;
+            }
+        }
             
             
         @media Screen and (max-width: 768px){
+            
+        body
+            {
+                background-image: linear-gradient(135deg, #ff559c 0, #ff4aa6 10%, #ff40ac 20%, #ff38af 30%, #ff31af 40%, #e82bab 50%, #c827a5 60%, #ab269f 70%, #90269a 80%, #772795 90%, #5f2891 100%);
+            } 
+            h5{ 
+                display: none;
+            } 
+            audio{ 
+                display: none;
+            }
+            
             h1{ 
-                font-family: monospace; 
+                font-family: "sora"; 
+                font-weight: bold;
+                color: #5f2891;
+                color: rgb(255, 255, 255);
+                text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.493);
                 display: flex;
                 align-items: center; 
+
                 justify-content: center;
                 padding: 10px;
                 text-transform: uppercase;
@@ -40,11 +67,15 @@
 
             }
 
+            #principal { 
+            }
          #principal > img{ 
             width: 250px;
             border: 2px solid white; 
             justify-content: center;
             align-items: center;
+            margin: 10px;
+        padding: 10px;
           
 
          } 
@@ -52,7 +83,8 @@
       h2{
             font-family: "sora";
             font-weight: 800;
-            color: brown;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
          }
            
          .motivo{ 
@@ -65,7 +97,7 @@
 
          #faixa{ 
             width: 100%; 
-            background-color: rgb(56, 136, 255);
+            background-color: rgb(255, 255, 255);
             height: 50px;
          }
 
@@ -74,6 +106,8 @@
             border: 2px solid white; 
             justify-content: center;
             align-items: center;
+            margin: 10px;
+        padding: 10px;
           }
 
         }
@@ -89,6 +123,9 @@
         display: inline;
         flex-direction: column !important; !important
         display: block !important;
+        border: 2px solid white; 
+        
+
     }
 
     #principal2{ 
@@ -112,10 +149,13 @@
         display: block;
     }
     
- 
+    
     
     #img4{ 
         width: 250px;
+        border: 2px solid white; 
+        padding: 10px;
+        margin: 10px;
     } 
 
     footer #img5{ 
@@ -124,7 +164,9 @@
         align-items: center;
         width: 100%;
         width: 250px;
-        background-color: antiquewhite;
+        border: 2px solid white; 
+        margin: 10px;
+        padding: 10px;
     }
 
 
@@ -133,13 +175,37 @@
         display: block;
         justify-content: center;
         text-align: right;
+    } 
+    p{ 
+        padding: 10px; 
+        font-family: "sora"; 
+        color: #fff; 
+        text-align: justify;
+    } 
+    iframe{ 
+        border: none;
+        width: 500px;
+        height: 500px;
+    }
+    h4{ 
+        color: wheat;
+        text-align: center;
+        font-size: 3em;
+        font-family: "sora";
+        
     }
     </Style>
 
 </head>
 
 <body>
-    <h1>5 Motivos por você ser Incrivel</h1>
+    <h5>
+        Abra no celular
+    </h5> 
+    <audio src="ims/Sam Smith - Stay With Me ft. Mary J. Blige (Live).mp3"  controls type="mp3" autoplay > 
+        
+    </audio>
+ <header> <h1>5 Motivos por você ser Incrivel</h1>
     
     <div id="principal">
        <div class="motivo"> <h2>Primeiro Motivo</h2>
@@ -148,7 +214,8 @@
             
     
         Engraçada e simpatica, voce sempre trata todas as pessoas que conhece com tanto respeito.
-        nunca te vi fechar a cara para ninguem, está perto de voce inspira qualquer pessoa
+        nunca te vi fechar a cara para ninguem, está perto de voce inspira qualquer pessoa. 
+
  
         </p>
     </div>
@@ -209,16 +276,27 @@
     </p>
   </div>
         </aside> 
+        <div id="faixa">
+            .  </div>
         <footer class="motivo2"> 
             <h2> quinto  motivo</h2> 
-            <div><img src="ims/5.jpg" id="img5" alt="">
+            <img src="ims/5.jpg" id="img5" alt="">
     
         </footer>
                   
-          <p>   Sabe por que vc é incrivel ? incrivel por sempre ta comigo e por me apoiar, confesso que eu só quis fazer uma faculdade porque voce me inspirou e vivia
-            falando para eu fazer, voce é incrivel Leticia por que quando o posto explodiu você foi a primeira a min liga que quando minha tia estava doente vc cachinhos
-            me apoio e agradeço de coração mesmo, se um dia eu tiver uma filha quero que ela seja assim como você. Obrigado por existir cachinhos. 
+          <p>   
+            Seu sorriso sua risada voce da ponta do pé a cabeça, voce é uma pessoa extraodinaria nem sei explicar o quão te admiro e te amo leh e gosto de você. 
+            meus parabens cachinhos rezo por sua felicidade pelo seu bem para vc se formar e seguir a carreira que tanto amou. 
+            continue sendo assim que so sua presença leticia faz a difirrença na vida das pessoas. 
             
-          </p>
+            
+
+          </p> 
+
+          <h4> 
+            Parabens Leticia s2
+          </h4>
+          <iframe src="https://media.tenor.com/V8AnSg7WG0EAAAAi/canticos-te-amo.gif" frameborder="1"></iframe> 
+        </header>
 </body>
 </html>
